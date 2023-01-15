@@ -13,8 +13,6 @@ int recursive_queens(int n);
 
 int check_placement(int col, int n);
 
-int debbug(int row);
-
 int row = 0;
 
 int valid = 0;
