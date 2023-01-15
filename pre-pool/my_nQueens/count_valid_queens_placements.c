@@ -5,8 +5,6 @@
 ** count_queens
 */
 
-#include <stdio.h>
-
 int my_put_nbr(int nb);
 
 int count_valid_queens_placements(int n);
@@ -93,16 +91,4 @@ int check_placement(int col, int n)
             return 0;
     };
     return 1;
-}
-
-int debbug(int row)
-{
-    printf("row: %d\n", row);
-    printf("queens: ");
-    for (int queen = 0; queen < count; queen++)
-    {
-        printf("(%d, %d), ", queens[queen][0], queens[queen][1]);
-    }
-    printf("\n count: %d\n", count);
-    printf("\n valid: %d\n", valid);
 }
